@@ -1,2 +1,2 @@
 # ipmdiabod
-I Put My Deployment In A Bag Of Doritos
+I Put My Deployments In A Bag Of Doritos
