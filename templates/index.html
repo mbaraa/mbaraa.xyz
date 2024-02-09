@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>IPMDIABOD</title>
+    <link rel="icon" href="/res/images/logo.png" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=2, user-scalable=yes"
+    />
+    <meta
+      name="description"
+      content="I Put My Deployment In A Bag Of Doritos"
+    />
+    <meta name="keywords" content="deployment,doritos,ci,cd,something" />
+  </head>
+  <body
+    style='
+      background-image: url("{{ .BGLink }}"), linear-gradient(to right, red , yellow);
+      background-repeat: repeat;
+      background-size: cover;
+      padding: 0px;
+      margin: 0px;
+    '
+  >
+    <main style="min-height: 100dvh">
+      <div style="display: flex; align-items: center; gap: 10px">
+        <img
+          src="/res/images/logo.png"
+          style="width: 50px; height: 50px"
+          alt="Logo"
+        />
+        <h1>
+          <span
+            style="background-color: yellow; color: black; width: fit-content"
+            >IPMDIABOD</span
+          >
+          <span
+            style="background-color: yellow; color: black; width: fit-content"
+            >(I</span
+          >
+          <span
+            style="background-color: yellow; color: black; width: fit-content"
+            >Put</span
+          >
+          <span
+            style="background-color: yellow; color: black; width: fit-content"
+            >My</span
+          >
+          <span
+            style="background-color: yellow; color: black; width: fit-content"
+            >Deployments</span
+          >
+          <span
+            style="background-color: yellow; color: black; width: fit-content"
+            >In</span
+          >
+          <span
+            style="background-color: yellow; color: black; width: fit-content"
+            >A</span
+          >
+          <span
+            style="background-color: yellow; color: black; width: fit-content"
+            >Bag</span
+          >
+          <span
+            style="background-color: yellow; color: black; width: fit-content"
+            >Of</span
+          >
+          <span
+            style="background-color: yellow; color: black; width: fit-content"
+            >Doritos)</span
+          >
+        </h1>
+      </div>
+      <p
+        style="
+          background-image: linear-gradient(to right, blue, brown);
+          width: fit-content;
+          font-size: 20px;
+          color: white;
+        "
+      >
+        Deploy your web applications into a bag of Doritos!
+      </p>
+
+      <h2 style="color: yellow; background-color: black; width: fit-content">
+        Current Deployments:
+      </h2>
+      <ul
+        style="
+          background-image: linear-gradient(to right, orange, green, pink);
+          width: fit-content;
+        "
+      >
+        {{ range .Deployments }}
+        <li style="color: white">
+          <a href="{{.Link}}">{{ .Title }}</a>
+          {{ .Description }}
+        </li>
+        {{ end }}
+      </ul>
+    </main>
+    <footer
+      style="
+        height: 200px;
+        background-image: linear-gradient(to right, red, green);
+        display: flex;
+        justify-content: center;
+        color: orange;
+        padding: 30px;
+        font-size: 20px;
+      "
+    >
+      Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim
+      labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet.
+      Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum
+      Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident.
+      Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex
+      occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat
+      officia voluptate. Culpa proident adipisicing id nulla nisi laboris ex in
+      Lorem sunt duis officia eiusmod. Aliqua reprehenderit commodo ex non
+      excepteur duis sunt velit enim. Voluptate laboris sint cupidatat ullamco
+      ut ea consectetur et est culpa et culpa duis.
+    </footer>
+  </body>
+</html>

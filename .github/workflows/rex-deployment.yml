@@ -1,0 +1,23 @@
+name: rex-deployment
+
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - "**.md"
+  pull_request:
+    # Sequence of patterns matched against refs/heads
+    branches-ignore:
+      - main
+
+jobs:
+  rex-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: rex-7567-e27
+        uses: mbaraa/rex-action@v1.0
+        with:
+          server-url: ${{ secrets.REX_SERVER }}
+          token: ${{ secrets.REX_KEY }}
+          repo-name: ipmdiabod

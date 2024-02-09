@@ -1,0 +1,21 @@
+version: "3.8"
+
+services:
+  app:
+    container_name: "ipmdiabod-app"
+    build:
+      dockerfile: Dockerfile
+      context: .
+    image: "ipmdiabod"
+    depends_on:
+      - db
+    restart: "always"
+    ports:
+      - "20242:8080"
+    env_file: ./.env.docker
+    stdin_open: true
+    networks:
+      - ipmdiabod
+
+networks:
+  ipmdiabod: {}
