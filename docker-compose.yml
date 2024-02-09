@@ -10,7 +10,6 @@ services:
     restart: "always"
     ports:
       - "20242:8080"
-    env_file: ./.env.docker
     stdin_open: true
     networks:
       - ipmdiabod
