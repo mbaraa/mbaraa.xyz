@@ -22,7 +22,7 @@ func main() {
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		tmpl := template.Must(template.ParseFS(aaa, "templates/index.html"))
 		_ = tmpl.Execute(w, map[string]any{
-			"BGLink": bgs[rand.Intn(3)],
+			"BGLink": bgs[rand.Intn(2)],
 			"Deployments": []struct {
 				Link        string
 				Title       string
