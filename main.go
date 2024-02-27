@@ -40,6 +40,7 @@ func main() {
 				{Link: "https://apis.gdscasu.com", Title: "GDSC-ASU Helper APIs", Description: "Some APIs used for testing purposes."},
 				{Link: "https://dotsync.org", Title: "Dotsync's website", Description: "A small, free, open-source, blazingly fast dotfiles synchronizer!"},
 				{Link: "https://api.dotsync.org", Title: "Dotsync's syncer API", Description: "A small, free, open-source, blazingly fast dotfiles synchronizer!"},
+				{Link: "https://linuxipsum.org", Title: "Linux Ipsum", Description: "A Linux flavored Lorem ipsum."},
 			},
 		})
 	})
