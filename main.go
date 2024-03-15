@@ -41,6 +41,10 @@ func main() {
 				{Link: "https://dotsync.org", Title: "Dotsync's website", Description: "A small, free, open-source, blazingly fast dotfiles synchronizer!"},
 				{Link: "https://api.dotsync.org", Title: "Dotsync's syncer API", Description: "A small, free, open-source, blazingly fast dotfiles synchronizer!"},
 				{Link: "https://linuxipsum.org", Title: "Linux Ipsum", Description: "A Linux flavored Lorem ipsum."},
+				{Link: "https://chateauweb.com", Title: "Chateau Web", Description: "Yet another home page."},
+				{Link: "https://appflowey.ipmdiabod.xyz", Title: "AppFlowy", Description: "My App Flowy personal hosting or sth."},
+				{Link: "https://traggo.ipmdiabod.xyz", Title: "Traggo", Description: "My Traggo personal hosting or sth."},
+				{Link: "https://waterna.net", Title: "Waterna", Description: "The coolest water delivery service."},
 			},
 		})
 	})
