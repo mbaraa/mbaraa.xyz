@@ -45,6 +45,8 @@ func main() {
 				{Link: "https://appflowey.ipmdiabod.xyz", Title: "AppFlowy", Description: "My App Flowy personal hosting or sth."},
 				{Link: "https://traggo.ipmdiabod.xyz", Title: "Traggo", Description: "My Traggo personal hosting or sth."},
 				{Link: "https://waterna.net", Title: "Waterna", Description: "The coolest water delivery service."},
+				{Link: "https://christa.cloud", Title: "Christa Cloud", Description: "Your bare metal server's assistant and monitor."},
+				{Link: "https://dankmuzikk.com", Title: "DankMuzikk", Description: "Create, Share and Play Music Playlists."},
 			},
 		})
 	})
