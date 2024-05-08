@@ -1,3 +1,3 @@
-module ipmdiabod
+module mbaraa.xyz
 
 go 1.21.6
