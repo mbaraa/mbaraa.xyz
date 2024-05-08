@@ -2,17 +2,12 @@ version: "3.8"
 
 services:
   app:
-    container_name: "ipmdiabod-app"
+    container_name: "mbaraa.xyz-app"
     build:
       dockerfile: Dockerfile
       context: .
-    image: "ipmdiabod"
+    image: "mbaraa.xyz"
     restart: "always"
     ports:
       - "20242:8080"
     stdin_open: true
-    networks:
-      - ipmdiabod
-
-networks:
-  ipmdiabod: {}

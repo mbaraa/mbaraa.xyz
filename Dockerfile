@@ -10,7 +10,7 @@ FROM alpine:latest as run
 
 WORKDIR /app
 
-COPY --from=build /app/ipmdiabod ./run
+COPY --from=build /app/mbaraa.xyz ./run
 COPY --from=build /app/templates ./templates
 
 EXPOSE 8080
