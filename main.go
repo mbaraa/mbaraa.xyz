@@ -35,7 +35,7 @@ func main() {
 				{Link: "https://scheduler.gdscasu.com", Title: "ASU Scheduler", Description: "The only ASU semester schedule generator!"},
 				{Link: "https://eloi.mbaraa.com", Title: "Eloi's API", Description: "A package and overlays fetch api for Eloi, more details here https://wiki.gentoo.org/wiki/Eloi"},
 				{Link: "https://killedbyjosa.org", Title: "Killed By JOSA", Description: "A killedbygoogle.com fork for dead projects at josa.ngo"},
-				{Link: "https://github-graph-drawer.mbaraa.com", Title: "Github Graph Drawer", Description: "A tool that helps typing text on your GitHub contributions graph."},
+				{Link: "https://github-graph-drawer.mbaraa.xyz", Title: "Github Graph Drawer", Description: "A tool that helps typing text on your GitHub contributions graph."},
 				{Link: "https://slidemd.com", Title: "SlideMD", Description: "Turn your markdowns into portable web slides in a jiffy."},
 				{Link: "https://apis.gdscasu.com", Title: "GDSC-ASU Helper APIs", Description: "Some APIs used for testing purposes."},
 				{Link: "https://dotsync.org", Title: "Dotsync's website", Description: "A small, free, open-source, blazingly fast dotfiles synchronizer!"},
