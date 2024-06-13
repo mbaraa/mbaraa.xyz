@@ -17,12 +17,12 @@ var (
 )
 
 func main() {
-	bgs := []string{"/res/bgs/01.jpg", "res/bgs/02.jpg"}
+	bgs := []string{"/res/bgs/01.jpg", "res/bgs/02.jpg", "res/bgs/03.jpg"}
 
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		tmpl := template.Must(template.ParseFS(aaa, "templates/index.html"))
 		_ = tmpl.Execute(w, map[string]any{
-			"BGLink": bgs[rand.Intn(2)],
+			"BGLink": bgs[rand.Intn(len(bgs))],
 			"Deployments": []struct {
 				Link        string
 				Title       string
