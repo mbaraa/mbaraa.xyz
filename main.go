@@ -17,7 +17,7 @@ var (
 )
 
 func main() {
-	bgs := []string{"/res/bgs/01.jpg", "res/bgs/02.jpg", "res/bgs/03.jpg"}
+	bgs := []string{"/res/bgs/01.webp", "res/bgs/02.webp", "res/bgs/03.webp"}
 
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		tmpl := template.Must(template.ParseFS(aaa, "templates/index.html"))
