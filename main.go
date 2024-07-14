@@ -30,10 +30,8 @@ func main() {
 			}{
 				{Link: "https://mbaraa.com", Title: "mbaraa.com", Description: "Baraa Al-Masri's personal blog and portfolio."},
 				{Link: "https://htmx.pics", Title: "HTMX Pictures", Description: "HTMX Profile Picture Maker."},
-				{Link: "https://gdscasu.com", Title: "GDSC - ASU's Home Page", Description: "The home page of GDSC-ASU, includes details about the chapter, like events, projects and members."},
-				{Link: "https://logogen.gdscasu.com", Title: "GDSC Logo Generator", Description: "The most optimized and working GDSC logo generator."},
-				{Link: "https://api.logogen.gdscasu.com", Title: "GDSC Logo Generator", Description: "The most optimized and working GDSC logo generator's API"},
-				{Link: "https://scheduler.gdscasu.com", Title: "ASU Scheduler", Description: "The only ASU semester schedule generator!"},
+				{Link: "https://gdsclogo.mbaraa.xyz", Title: "GDSC Logo Generator", Description: "The most optimized and working GDSC logo generator."},
+				{Link: "https://api.gdsclogo.mbaraa.xyz", Title: "GDSC Logo Generator", Description: "The most optimized and working GDSC logo generator's API"},
 				{Link: "https://eloi.mbaraa.xyz", Title: "Eloi's API", Description: "A package and overlays fetch api for Eloi, more details here https://wiki.gentoo.org/wiki/Eloi"},
 				{Link: "https://killedbyjosa.org", Title: "Killed By JOSA", Description: "A killedbygoogle.com fork for dead projects at josa.ngo"},
 				{Link: "https://github-graph-drawer.mbaraa.xyz", Title: "Github Graph Drawer", Description: "A tool that helps typing text on your GitHub contributions graph."},
@@ -46,7 +44,8 @@ func main() {
 				// {Link: "https://traggo.mbaraa.xyz", Title: "Traggo", Description: "My Traggo personal hosting or sth."},
 				{Link: "https://waterna.net", Title: "Waterna", Description: "The coolest water delivery service."},
 				{Link: "https://dankmuzikk.com", Title: "DankMuzikk", Description: "Create, Share and Play Music Playlists."},
-				{Link: "https://htmxqr.mbaraa.xyz", Title: "HTMX QR Codes", Description: "You May've Heard Of htmx On Floppies, Get Ready For htmx On QR Codes!"},
+				// {Link: "https://htmxqr.mbaraa.xyz", Title: "HTMX QR Codes", Description: "You May've Heard Of htmx On Floppies, Get Ready For htmx On QR Codes!"},
+				{Link: "https://yt.mbaraa.xyz", Title: "ytscrape", Description: "YouTube Scraper Searcher"},
 			},
 		})
 	})
