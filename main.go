@@ -46,6 +46,7 @@ func main() {
 				{Link: "https://dankmuzikk.com", Title: "DankMuzikk", Description: "Create, Share and Play Music Playlists."},
 				// {Link: "https://htmxqr.mbaraa.xyz", Title: "HTMX QR Codes", Description: "You May've Heard Of htmx On Floppies, Get Ready For htmx On QR Codes!"},
 				{Link: "https://yt.mbaraa.xyz", Title: "ytscrape", Description: "YouTube Scraper Searcher"},
+				{Link: "https://dankscreen.mbaraa.xyz", Title: "DankScreen", Description: "Display capture card's output into your browser."},
 			},
 		})
 	})
