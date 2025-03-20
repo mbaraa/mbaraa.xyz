@@ -1,4 +1,4 @@
-FROM golang:1.21-alpine as build
+FROM golang:1.21-alpine AS build
 
 WORKDIR /app
 COPY . .
@@ -6,13 +6,13 @@ COPY . .
 RUN go mod tidy
 RUN go build
 
-FROM alpine:latest as run
+FROM alpine:latest AS run
 
 WORKDIR /app
 
-COPY --from=build /app/mbaraa.xyz ./run
+COPY --from=build /app/mbaraa.xyz ./mbaraa.xyz
 COPY --from=build /app/templates ./templates
 
 EXPOSE 8080
 
-CMD ["./run"]
+CMD ["./mbaraa.xyz"]
